@@ -1,5 +1,5 @@
 # ============================================
-# ROBOTS.TXT - Qomaruddin Djamal Portfolio
+# ROBOTS.TXT - Qomaruddin Djamal
 # Website: https://qomaruddindjamal.github.io
 # Owner: Qomaruddin Djamal - Founder PT Citra Media Technology & PT Mitra Utama Group
 # Last updated: 2026-01-20
