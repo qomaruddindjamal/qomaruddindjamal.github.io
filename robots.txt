@@ -1,0 +1,42 @@
+# ============================================
+# ROBOTS.TXT - Qomaruddin Djamal Portfolio
+# Website: https://qomaruddindjamal.github.io
+# Owner: Qomaruddin Djamal - Founder PT Citra Media Technology & PT Mitra Utama Group
+# Last updated: 2026-01-20
+# ============================================
+
+User-agent: *
+Allow: /
+Crawl-delay: 0.5
+
+# Sitemap location
+Sitemap: https://qomaruddindjamal.github.io/sitemap.xml
+
+# Allow all important pages
+Allow: /#home
+Allow: /#about
+Allow: /#skills
+Allow: /#products
+Allow: /#partners
+Allow: /#projects
+Allow: /#contact
+
+# Disable crawling for non-essential files
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /*.json$
+Disallow: /manifest.json$
+Disallow: /sw.js$
+
+# Google bot khusus
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0.3
+
+# Bing bot khusus
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0.5
+
+# Host (Untuk mesin pencari yang mendukung)
+Host: https://qomaruddindjamal.github.io
