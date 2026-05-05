@@ -1,4 +1,4 @@
-const CACHE_NAME = 'qomaruddin-v1';
+const CACHE_NAME = 'djamal-v1';
 const urlsToCache = ['/', '/index.html', '/manifest.json'];
 
 self.addEventListener('install', event => {
