@@ -1,7 +1,7 @@
 {
   "name": "Qomaruddin Djamal - IT Contractor",
   "short_name": "Qomaruddin",
-  "description": "Portfolio IT Contractor - Network, CCTV, Fire Alarm, Audio Broadcast. Founder PT Citra Media Technology & PT Mitra Utama Group",
+  "description": "Portfolio IT Contractor - Network, CCTV, Fire Alarm, Audio Broadcast",
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#ff6b35",
@@ -9,41 +9,12 @@
   "orientation": "portrait",
   "scope": "/",
   "icons": [
-    {
-      "src": "https://ui-avatars.com/api/?background=ff6b35&color=fff&name=QD&size=72",
-      "sizes": "72x72",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "https://ui-avatars.com/api/?background=ff6b35&color=fff&name=QD&size=96",
-      "sizes": "96x96",
-      "type": "image/png"
-    },
-    {
-      "src": "https://ui-avatars.com/api/?background=ff6b35&color=fff&name=QD&size=128",
-      "sizes": "128x128",
-      "type": "image/png"
-    },
-    {
-      "src": "https://ui-avatars.com/api/?background=ff6b35&color=fff&name=QD&size=144",
-      "sizes": "144x144",
-      "type": "image/png"
-    },
-    {
-      "src": "https://ui-avatars.com/api/?background=ff6b35&color=fff&name=QD&size=152",
-      "sizes": "152x152",
-      "type": "image/png"
-    },
-    {
-      "src": "https://ui-avatars.com/api/?background=ff6b35&color=fff&name=QD&size=192",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "https://ui-avatars.com/api/?background=ff6b35&color=fff&name=QD&size=512",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
+    {"src": "https://ui-avatars.com/api/?background=ff6b35&color=fff&name=QD&size=72", "sizes": "72x72", "type": "image/png"},
+    {"src": "https://ui-avatars.com/api/?background=ff6b35&color=fff&name=QD&size=96", "sizes": "96x96", "type": "image/png"},
+    {"src": "https://ui-avatars.com/api/?background=ff6b35&color=fff&name=QD&size=128", "sizes": "128x128", "type": "image/png"},
+    {"src": "https://ui-avatars.com/api/?background=ff6b35&color=fff&name=QD&size=144", "sizes": "144x144", "type": "image/png"},
+    {"src": "https://ui-avatars.com/api/?background=ff6b35&color=fff&name=QD&size=152", "sizes": "152x152", "type": "image/png"},
+    {"src": "https://ui-avatars.com/api/?background=ff6b35&color=fff&name=QD&size=192", "sizes": "192x192", "type": "image/png"},
+    {"src": "https://ui-avatars.com/api/?background=ff6b35&color=fff&name=QD&size=512", "sizes": "512x512", "type": "image/png"}
   ]
 }
