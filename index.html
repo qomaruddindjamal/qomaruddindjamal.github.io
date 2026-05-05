@@ -1,594 +1,585 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="id">
 <head>
-    <meta charset="utf-8">
-    <title>GreenHost - Web Hosting HTML Template</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
-
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
-
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">  
-
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
-
-<body>
-    <div class="container-xxl bg-white p-0">
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
-        </div>
-        <!-- Spinner End -->
-
-
-        <!-- Navbar & Hero Start -->
-        <div class="container-xxl position-relative p-0">
-            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-                <a href="" class="navbar-brand p-0">
-                    <h1 class="m-0"><i class="fa fa-server me-3"></i>GreenHost</h1>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="domain.html" class="nav-item nav-link">Domain</a>
-                        <a href="hosting.html" class="nav-item nav-link">Hosting</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu m-0">
-                                <a href="team.html" class="dropdown-item">Our Team</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                <a href="comparison.html" class="dropdown-item">Comparison</a>
-                            </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
-                    </div>
-                    <butaton type="button" class="btn text-secondary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
-                    <a href="" class="btn btn-secondary py-2 px-4 ms-3">Register</a>
-                </div>
-            </nav>
-
-            <div class="container-xxl py-5 bg-primary hero-header mb-5">
-                <div class="container my-5 py-5 px-lg-5">
-                    <div class="row g-5">
-                        <div class="col-lg-6 pt-5 text-center text-lg-start">
-                            <h1 class="display-4 text-white mb-4 animated slideInLeft">Shared Hosting</h1>
-                            <p class="text-white animated slideInLeft">Tempor rebum no at dolore lorem clita rebum rebum ipsum rebum stet dolor sed justo kasd.</p>
-                            <h1 class="text-white mb-4 animated slideInLeft">
-                                <small class="align-top fw-normal" style="font-size: 15px; line-height: 25px;">Starting:</small>
-                                <span>$2.49</span>
-                                <small class="align-bottom fw-normal" style="font-size: 15px; line-height: 33px;">/ Mo</small>
-                            </h1>
-                            <a href="" class="btn btn-secondary py-sm-3 px-sm-5 me-3 animated slideInLeft">Get Started Now</a>
-                        </div>
-                        <div class="col-lg-6 text-center text-lg-start">
-                            <img class="img-fluid animated zoomIn" src="img/hero.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Navbar & Hero End -->
-
-
-        <!-- Full Screen Search Start -->
-        <div class="modal fade" id="searchModal" tabindex="-1">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content" style="background: rgba(29, 40, 51, 0.8);">
-                    <div class="modal-header border-0">
-                        <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body d-flex align-items-center justify-content-center">
-                        <div class="input-group" style="max-width: 600px;">
-                            <input type="text" class="form-control bg-transparent border-light p-3" placeholder="Type search keyword">
-                            <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Full Screen Search End -->
-
-
-        <!-- Domain Search Start -->
-        <div class="container-xxl domain mb-5" style="margin-top: 90px;">
-            <div class="container px-lg-5">
-                <div class="row justify-content-center">
-                    <div class="col-lg-10">
-                        <div class="section-title position-relative text-center mx-auto mb-4 pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                            <h1 class="mb-3">Search Your Domain</h1>
-                            <p class="mb-1">Vero justo sed sed vero clita amet. Et justo vero sea diam elitr amet ipsum eos ipsum clita duo sed. Sed vero sea diam erat vero elitr sit clita.</p>
-                        </div>
-                        <div class="position-relative w-100 my-3 wow fadeInUp" data-wow-delay="0.3s">
-                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your domain name">
-                            <button type="button" class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">Search</button>
-                        </div>
-                        <div class="row g-3 wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <h5 class="fw-bold text-primary mb-1">.com</h5>
-                                <p class="mb-0">$9.99/year</p>
-                            </div>
-                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <h5 class="fw-bold text-primary mb-1">.net</h5>
-                                <p class="mb-0">$9.99/year</p>
-                            </div>
-                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <h5 class="fw-bold text-primary mb-1">.org</h5>
-                                <p class="mb-0">$9.99/year</p>
-                            </div>
-                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <h5 class="fw-bold text-primary mb-1">.us</h5>
-                                <p class="mb-0">$9.99/year</p>
-                            </div>
-                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <h5 class="fw-bold text-primary mb-1">.eu</h5>
-                                <p class="mb-0">$9.99/year</p>
-                            </div>
-                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <h5 class="fw-bold text-primary mb-1">.co.uk</h5>
-                                <p class="mb-0">$9.99/year</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Domain Search End -->
-
-
-        <!-- About Start -->
-        <div class="container-xxl py-5">
-            <div class="container px-lg-5">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="section-title position-relative mb-4 pb-4">
-                            <h1 class="mb-2">Welcome to GreenHost</h1>
-                        </div>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit clita duo justo magna dolore erat amet</p>
-                        <div class="row g-3">
-                            <div class="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
-                                <div class="bg-light rounded text-center p-4">
-                                    <i class="fa fa-users-cog fa-2x text-primary mb-2"></i>
-                                    <h2 class="mb-1" data-toggle="counter-up">1234</h2>
-                                    <p class="mb-0">Experts</p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 wow fadeIn" data-wow-delay="0.3s">
-                                <div class="bg-light rounded text-center p-4">
-                                    <i class="fa fa-users fa-2x text-primary mb-2"></i>
-                                    <h2 class="mb-1" data-toggle="counter-up">1234</h2>
-                                    <p class="mb-0">Clients</p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 wow fadeIn" data-wow-delay="0.5s">
-                                <div class="bg-light rounded text-center p-4">
-                                    <i class="fa fa-check fa-2x text-primary mb-2"></i>
-                                    <h2 class="mb-1" data-toggle="counter-up">1234</h2>
-                                    <p class="mb-0">Projects</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/about.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- About End -->
-
-
-        <!-- Pricing Start -->
-        <div class="container-xxl py-5">
-            <div class="container px-lg-5">
-                <div class="section-title position-relative text-center mx-auto mb-5 pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="mb-3">Our Hosting Plans</h1>
-                    <p class="mb-1">Vero justo sed sed vero clita amet. Et justo vero sea diam elitr amet ipsum eos ipsum clita duo sed. Sed vero sea diam erat vero elitr sit clita.</p>
-                </div>
-                <div class="row gy-5 gx-4">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="position-relative shadow rounded border-top border-5 border-primary">
-                            <div class="d-flex align-items-center justify-content-center position-absolute top-0 start-50 translate-middle bg-primary rounded-circle" style="width: 45px; height: 45px; margin-top: -3px;">
-                                <i class="fa fa-share-alt text-white"></i>
-                            </div>
-                            <div class="text-center border-bottom p-4 pt-5">
-                                <h4 class="fw-bold">Share Hosting</h4>
-                                <p class="mb-0">Eirmod erat dolor amet est clita lorem erat justo rebum elitr eos</p>
-                            </div>
-                            <div class="text-center border-bottom p-4">
-                                <p class="text-primary mb-1">Latest Offer - <strong>Save 30%</strong></p>
-                                <h1 class="mb-3">
-                                    <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>2.49<small
-                                        class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
-                                </h1>
-                                <a class="btn btn-primary px-4 py-2" href="">Buy Now</a>
-                            </div>
-                            <div class="p-4">
-                                <p class="border-bottom pb-3"><i class="fa fa-check text-primary me-3"></i>100 GB Disk Space</p>
-                                <p class="border-bottom pb-3"><i class="fa fa-check text-primary me-3"></i>Unlimited Bandwith</p>
-                                <p class="border-bottom pb-3"><i class="fa fa-check text-primary me-3"></i>Upgrade to Positive SSL</p>
-                                <p class="border-bottom pb-3"><i class="fa fa-check text-primary me-3"></i>Automatic Malware Removal</p>
-                                <p class="mb-0"><i class="fa fa-check text-primary me-3"></i>30 Days Money Back Guarantee</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="position-relative shadow rounded border-top border-5 border-secondary">
-                            <div class="d-flex align-items-center justify-content-center position-absolute top-0 start-50 translate-middle bg-secondary rounded-circle" style="width: 45px; height: 45px; margin-top: -3px;">
-                                <i class="fa fa-server text-white"></i>
-                            </div>
-                            <div class="text-center border-bottom p-4 pt-5">
-                                <h4 class="fw-bold">VPS Hosting</h4>
-                                <p class="mb-0">Eirmod erat dolor amet est clita lorem erat justo rebum elitr eos</p>
-                            </div>
-                            <div class="text-center border-bottom p-4">
-                                <p class="text-primary mb-1">Latest Offer - <strong>Save 30%</strong></p>
-                                <h1 class="mb-3">
-                                    <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>5.49<small
-                                        class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
-                                </h1>
-                                <a class="btn btn-secondary px-4 py-2" href="">Buy Now</a>
-                            </div>
-                            <div class="p-4">
-                                <p class="border-bottom pb-3"><i class="fa fa-check text-primary me-3"></i>100 GB Disk Space</p>
-                                <p class="border-bottom pb-3"><i class="fa fa-check text-primary me-3"></i>Unlimited Bandwith</p>
-                                <p class="border-bottom pb-3"><i class="fa fa-check text-primary me-3"></i>Upgrade to Positive SSL</p>
-                                <p class="border-bottom pb-3"><i class="fa fa-check text-primary me-3"></i>Automatic Malware Removal</p>
-                                <p class="mb-0"><i class="fa fa-check text-primary me-3"></i>30 Days Money Back Guarantee</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="position-relative shadow rounded border-top border-5 border-primary">
-                            <div class="d-flex align-items-center justify-content-center position-absolute top-0 start-50 translate-middle bg-primary rounded-circle" style="width: 45px; height: 45px; margin-top: -3px;">
-                                <i class="fa fa-cog text-white"></i>
-                            </div>
-                            <div class="text-center border-bottom p-4 pt-5">
-                                <h4 class="fw-bold">Dedi Hosting</h4>
-                                <p class="mb-0">Eirmod erat dolor amet est clita lorem erat justo rebum elitr eos</p>
-                            </div>
-                            <div class="text-center border-bottom p-4">
-                                <p class="text-primary mb-1">Latest Offer - <strong>Save 30%</strong></p>
-                                <h1 class="mb-3">
-                                    <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>11.49<small
-                                        class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
-                                </h1>
-                                <a class="btn btn-primary px-4 py-2" href="">Buy Now</a>
-                            </div>
-                            <div class="p-4">
-                                <p class="border-bottom pb-3"><i class="fa fa-check text-primary me-3"></i>100 GB Disk Space</p>
-                                <p class="border-bottom pb-3"><i class="fa fa-check text-primary me-3"></i>Unlimited Bandwith</p>
-                                <p class="border-bottom pb-3"><i class="fa fa-check text-primary me-3"></i>Upgrade to Positive SSL</p>
-                                <p class="border-bottom pb-3"><i class="fa fa-check text-primary me-3"></i>Automatic Malware Removal</p>
-                                <p class="mb-0"><i class="fa fa-check text-primary me-3"></i>30 Days Money Back Guarantee</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Pricing End -->
-
-
-        <!-- Comparison Start -->
-        <div class="container-xxl py-5">
-            <div class="container px-lg-5">
-                <div class="section-title position-relative text-center mx-auto mb-5 pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="mb-3">Shared VS Dedicated Server</h1>
-                    <p class="mb-1">Vero justo sed sed vero clita amet. Et justo vero sea diam elitr amet ipsum eos
-                        ipsum clita duo sed. Sed vero sea diam erat vero elitr sit clita.</p>
-                </div>
-                <div class="row g-5 comparison position-relative">
-                    <div class="col-lg-6 pe-lg-5">
-                        <div class="section-title position-relative mx-auto mb-4 pb-4">
-                            <h3 class="fw-bold mb-0">Shared Server</h3>
-                        </div>
-                        <div class="row gy-3 gx-5">
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
-                                <i class="fa fa-server fa-3x text-primary mb-3"></i>
-                                <h5 class="fw-bold">99.99% Uptime</h5>
-                                <p>Ipsum dolor diam stet stet kasd diam sea stet sed rebum dolor ipsum</p>
-                            </div>
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                                <i class="fa fa-shield-alt fa-3x text-primary mb-3"></i>
-                                <h5 class="fw-bold">100% Secured</h5>
-                                <p>Ipsum dolor diam stet stet kasd diam sea stet sed rebum dolor ipsum</p>
-                            </div>
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
-                                <i class="fa fa-cog fa-3x text-primary mb-3"></i>
-                                <h5 class="fw-bold">Control Panel</h5>
-                                <p>Ipsum dolor diam stet stet kasd diam sea stet sed rebum dolor ipsum</p>
-                            </div>
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
-                                <i class="fa fa-headset fa-3x text-primary mb-3"></i>
-                                <h5 class="fw-bold">24/7 Support</h5>
-                                <p>Ipsum dolor diam stet stet kasd diam sea stet sed rebum dolor ipsum</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 ps-lg-5">
-                        <div class="section-title position-relative mx-auto mb-4 pb-4">
-                            <h3 class="fw-bold mb-0">Dedicated Server</h3>
-                        </div>
-                        <div class="row gy-3 gx-5">
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
-                                <i class="fa fa-server fa-3x text-secondary mb-3"></i>
-                                <h5 class="fw-bold">99.99% Uptime</h5>
-                                <p>Ipsum dolor diam stet stet kasd diam sea stet sed rebum dolor ipsum</p>
-                            </div>
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                                <i class="fa fa-shield-alt fa-3x text-secondary mb-3"></i>
-                                <h5 class="fw-bold">100% Secured</h5>
-                                <p>Ipsum dolor diam stet stet kasd diam sea stet sed rebum dolor ipsum</p>
-                            </div>
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
-                                <i class="fa fa-cog fa-3x text-secondary mb-3"></i>
-                                <h5 class="fw-bold">Control Panel</h5>
-                                <p>Ipsum dolor diam stet stet kasd diam sea stet sed rebum dolor ipsum</p>
-                            </div>
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
-                                <i class="fa fa-headset fa-3x text-secondary mb-3"></i>
-                                <h5 class="fw-bold">24/7 Support</h5>
-                                <p>Ipsum dolor diam stet stet kasd diam sea stet sed rebum dolor ipsum</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Comparison Start -->
-
-
-        <!-- Testimonial Start -->
-        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container px-lg-5">
-                <div class="owl-carousel testimonial-carousel">
-                    <div class="testimonial-item position-relative bg-light border-top border-5 border-primary rounded p-4 my-4">
-                        <div class="d-flex align-items-center justify-content-center position-absolute top-0 start-0 ms-5 translate-middle bg-primary rounded-circle" style="width: 45px; height: 45px; margin-top: -3px;">
-                            <i class="fa fa-quote-left text-white"></i>
-                        </div>
-                        <p class="mt-3">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style="width: 50px; height: 50px;">
-                            <div class="ps-3">
-                                <h6 class="fw-bold mb-1">Client Name</h6>
-                                <small>Profession</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-item position-relative bg-light border-top border-5 border-primary rounded p-4 my-4">
-                        <div class="d-flex align-items-center justify-content-center position-absolute top-0 start-0 ms-5 translate-middle bg-primary rounded-circle" style="width: 45px; height: 45px; margin-top: -3px;">
-                            <i class="fa fa-quote-left text-white"></i>
-                        </div>
-                        <p class="mt-3">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" style="width: 50px; height: 50px;">
-                            <div class="ps-3">
-                                <h6 class="fw-bold mb-1">Client Name</h6>
-                                <small>Profession</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-item position-relative bg-light border-top border-5 border-primary rounded p-4 my-4">
-                        <div class="d-flex align-items-center justify-content-center position-absolute top-0 start-0 ms-5 translate-middle bg-primary rounded-circle" style="width: 45px; height: 45px; margin-top: -3px;">
-                            <i class="fa fa-quote-left text-white"></i>
-                        </div>
-                        <p class="mt-3">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" style="width: 50px; height: 50px;">
-                            <div class="ps-3">
-                                <h6 class="fw-bold mb-1">Client Name</h6>
-                                <small>Profession</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-item position-relative bg-light border-top border-5 border-primary rounded p-4 mt-4">
-                        <div class="d-flex align-items-center justify-content-center position-absolute top-0 start-0 ms-5 translate-middle bg-primary rounded-circle" style="width: 45px; height: 45px; margin-top: -3px;">
-                            <i class="fa fa-quote-left text-white"></i>
-                        </div>
-                        <p class="mt-3">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg" style="width: 50px; height: 50px;">
-                            <div class="ps-3">
-                                <h6 class="fw-bold mb-1">Client Name</h6>
-                                <small>Profession</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Testimonial End -->
-
-
-        <!-- Team Start -->
-        <div class="container-xxl py-5">
-            <div class="container px-lg-5">
-                <div class="section-title position-relative text-center mx-auto mb-5 pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="mb-3">Our Team Members</h1>
-                    <p class="mb-1">Vero justo sed sed vero clita amet. Et justo vero sea diam elitr amet ipsum eos
-                        ipsum clita duo sed. Sed vero sea diam erat vero elitr sit clita.</p>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="team-item border-top border-5 border-primary rounded shadow overflow-hidden">
-                            <div class="text-center p-4">
-                                <img class="img-fluid rounded-circle mb-4" src="img/team-1.jpg" alt="">
-                                <h5 class="fw-bold mb-1">Full Name</h5>
-                                <small>Designation</small>
-                            </div>
-                            <div class="d-flex justify-content-center bg-primary p-3">
-                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="team-item border-top border-5 border-primary rounded shadow overflow-hidden">
-                            <div class="text-center p-4">
-                                <img class="img-fluid rounded-circle mb-4" src="img/team-2.jpg" alt="">
-                                <h5 class="fw-bold mb-1">Full Name</h5>
-                                <small>Designation</small>
-                            </div>
-                            <div class="d-flex justify-content-center bg-primary p-3">
-                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item border-top border-5 border-primary rounded shadow overflow-hidden">
-                            <div class="text-center p-4">
-                                <img class="img-fluid rounded-circle mb-4" src="img/team-3.jpg" alt="">
-                                <h5 class="fw-bold mb-1">Full Name</h5>
-                                <small>Designation</small>
-                            </div>
-                            <div class="d-flex justify-content-center bg-primary p-3">
-                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="team-item border-top border-5 border-primary rounded shadow overflow-hidden">
-                            <div class="text-center p-4">
-                                <img class="img-fluid rounded-circle mb-4" src="img/team-4.jpg" alt="">
-                                <h5 class="fw-bold mb-1">Full Name</h5>
-                                <small>Designation</small>
-                            </div>
-                            <div class="d-flex justify-content-center bg-primary p-3">
-                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Team End -->
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="3Ee1vr7qlD_Od78qhBR-u2Ic4aJZB5O3oP9Cb077x6w" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    
+    <!-- ========== TITLE SEO - SEPERTI APPLE ========== -->
+    <title>Qomaruddin Djamal - Founder PT Citra Media Technology & PT Mitra Utama Group | IT Contractor Network, CCTV, Fire Alarm</title>
+    
+    <!-- ========== META DESCRIPTION - AKAN TAMPIL DI GOOGLE ========== -->
+    <meta name="description" content="Qomaruddin Djamal adalah Founder & CEO PT Citra Media Technology dan PT Mitra Utama Group. IT Contractor profesional di Jepara dan Kudus. Jasa pemasangan Network Fiber Optik, CCTV Hikvision, Fire Alarm Hochiki, Audio Broadcast, Web Development. Mitra: PT Nexgen Solutions Asia (NSA), Citramedia, PT Parkland World Jepara (PWJ), PT Parkland World Rembang (PWA), SMK Hasan Kafrawi (SMKHK), Ungu Computer, Netvile, Hikvision, Lenovo, Belden, IAIN Kudus, UIN Kudus, dan lainnya.">
+    
+    <!-- ========== META KEYWORDS - SEMUA PERUSAHAAN & SINGKATAN ========== -->
+    <meta name="keywords" content="Qomaruddin Djamal, PT Citra Media Technology, Citramedia, PT Mitra Utama Group, Mitra Utama Group, PT Nexgen Solutions Asia, NSA, Nexgen, IT Contractor Jepara, IT Contractor Kudus, Network Engineer, CCTV Specialist, Fire Alarm System, Audio Broadcast, Fiber Optik, PT Parkland World Jepara, PWJ, PT Parkland World Rembang, PWA, SMK Hasan Kafrawi, SMKHK, Ungu Computer, Netvile, Hikvision, Lenovo, Belden, IAIN Kudus, IANKUDUS, UIN Kudus, UINKudus, PT Handal Sukses Karya, HSK, PT Yihyu Footwater, PT Jinlin Luggage, Pendidikan Surya, Industri Jepara, Karimunjawa, Pati, Rembang">
+    
+    <meta name="author" content="Qomaruddin Djamal">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <meta name="googlebot" content="index, follow">
+    
+    <!-- ========== GEO TAGS ========== -->
+    <meta name="geo.region" content="ID-JT">
+    <meta name="geo.placename" content="Jepara, Kudus, Rembang, Jawa Tengah">
+    <meta name="geo.position" content="-6.592;110.678">
+    <meta name="ICBM" content="-6.592, 110.678">
+    
+    <!-- ========== OPEN GRAPH ========== -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://qomaruddindjamal.github.io/">
+    <meta property="og:title" content="Qomaruddin Djamal - Founder PT Citra Media Technology & PT Mitra Utama Group">
+    <meta property="og:description" content="Qomaruddin Djamal, Founder PT Citra Media Technology dan PT Mitra Utama Group. IT Contractor profesional di Jepara dan Kudus. Mitra: NSA, PWJ, PWA, SMKHK, Ungu Computer, Netvile.">
+    <meta property="og:image" content="https://ui-avatars.com/api/?background=ff6b35&color=fff&name=Qomaruddin&size=512">
+    
+    <!-- ========== TWITTER CARD ========== -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Qomaruddin Djamal - Founder PT Citra Media Technology & PT Mitra Utama Group">
+    <meta name="twitter:description" content="Founder PT Citra Media Technology & PT Mitra Utama Group. IT Contractor di Jepara & Kudus. Mitra: NSA, PWJ, PWA, SMKHK.">
+    
+    <!-- ========== CANONICAL URL ========== -->
+    <link rel="canonical" href="https://qomaruddindjamal.github.io/">
+    
+    <!-- ========== SCHEMA.ORG UNTUK RICH SNIPPET ========== -->
+    <!-- Schema 1: Person dengan kedua perusahaan -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Qomaruddin Djamal",
+        "alternateName": ["Qomaruddin Djamal IT Contractor", "Founder PT Citra Media Technology", "Founder PT Mitra Utama Group", "CEO Citramedia", "Qomaruddin PWJ", "Qomaruddin PWA"],
+        "jobTitle": "Founder & CEO",
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "PT Citra Media Technology",
+                "alternateName": "Citramedia"
+            },
+            {
+                "@type": "Organization",
+                "name": "PT Mitra Utama Group",
+                "alternateName": "Mitra Utama Group"
+            }
+        ],
+        "url": "https://qomaruddindjamal.github.io/",
+        "sameAs": [
+            "https://github.com/qomaruddindjamal",
+            "https://linkedin.com/in/qomaruddin",
+            "https://youtube.com/@QomaruddinDjamal92"
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Jepara, Kudus, Rembang",
+            "addressRegion": "Jawa Tengah",
+            "addressCountry": "Indonesia"
+        },
+        "knowsAbout": ["Network Infrastructure", "Fiber Optic", "CCTV Hikvision", "Fire Alarm Hochiki", "Audio Broadcast", "Web Development", "PWJ", "PWA", "NSA", "SMKHK"]
+    }
+    </script>
+    
+    <!-- Schema 2: LocalBusiness dengan Rating Bintang -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Qomaruddin Djamal - PT Citra Media Technology & PT Mitra Utama Group",
+        "image": "https://ui-avatars.com/api/?background=ff6b35&color=fff&name=Qomaruddin&size=512",
+        "description": "Founder PT Citra Media Technology dan PT Mitra Utama Group. IT Contractor profesional di Jepara dan Kudus.",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "28",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Jepara, Kudus",
+            "addressRegion": "Jawa Tengah",
+            "addressCountry": "Indonesia"
+        },
+        "founder": {
+            "@type": "Person",
+            "name": "Qomaruddin Djamal"
+        }
+    }
+    </script>
+    
+    <!-- Schema 3: ItemList untuk Mitra & Klien (TANPA IAIN & UIN di list ini) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Mitra dan Klien Qomaruddin Djamal",
+        "numberOfItems": 22,
+        "itemListElement": [
+            {"@type": "Organization", "name": "PT Nexgen Solutions Asia", "alternateName": "NSA"},
+            {"@type": "Organization", "name": "Citramedia"},
+            {"@type": "Organization", "name": "PT Mitra Utama Group"},
+            {"@type": "Organization", "name": "PT Parkland World Jepara", "alternateName": "PWJ"},
+            {"@type": "Organization", "name": "PT Parkland World Rembang", "alternateName": "PWA"},
+            {"@type": "Organization", "name": "SMK Hasan Kafrawi", "alternateName": "SMKHK"},
+            {"@type": "Organization", "name": "Ungu Computer"},
+            {"@type": "Organization", "name": "Netvile"},
+            {"@type": "Organization", "name": "Hikvision"},
+            {"@type": "Organization", "name": "Lenovo"},
+            {"@type": "Organization", "name": "Belden"},
+            {"@type": "Organization", "name": "PT Handal Sukses Karya", "alternateName": "HSK"},
+            {"@type": "Organization", "name": "PT Handal Sukses Karya Rembang", "alternateName": "HSK"},
+            {"@type": "Organization", "name": "PT Yihyu Footwater Indonesia"},
+            {"@type": "Organization", "name": "PT Jinlin Luggage Indonesia"},
+            {"@type": "Organization", "name": "Pendidikan Surya"},
+            {"@type": "Organization", "name": "PT Hwa Seung Indonesia"},
+            {"@type": "Organization", "name": "PT TAK Textile Indonesia Cikupa"},
+            {"@type": "Organization", "name": "PT TAK Textile Indonesia Cikarang"},
+            {"@type": "Organization", "name": "PT Anam Sinergi Indonesia"},
+            {"@type": "Organization", "name": "PT Global Solusindo"},
+            {"@type": "Organization", "name": "MTs Hasan Kafrawi", "alternateName": "MTSHK"}
+        ]
+    }
+    </script>
+    
+    <!-- Schema 4: IAIN Kudus & UIN Kudus hanya di SEO (tidak di item list) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "IAIN Kudus",
+        "alternateName": "IANKUDUS",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Kudus",
+            "addressRegion": "Jawa Tengah"
+        }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "UIN Kudus",
+        "alternateName": "UINKudus",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Kudus",
+            "addressRegion": "Jawa Tengah"
+        }
+    }
+    </script>
+    
+    <!-- PWA -->
+    <meta name="theme-color" content="#ff6b35">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Qomaruddin Djamal">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="https://ui-avatars.com/api/?background=ff6b35&color=fff&name=QD&size=192">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background: #0a0c15; color: #e2e8f0; overflow-x: hidden; scroll-behavior: smooth; }
         
+        .loader-wrapper { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #0a0c15; display: flex; justify-content: center; align-items: center; z-index: 10000; transition: opacity 0.8s; }
+        .loader-circle { width: 80px; height: 80px; border: 3px solid rgba(255,107,53,0.2); border-top: 3px solid #ff6b35; border-radius: 50%; animation: spin 1s infinite; margin: 0 auto 20px; }
+        .loader-text { font-size: 1rem; letter-spacing: 4px; background: linear-gradient(135deg, #ff6b35, #f59e0b); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 600; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        
+        .scroll-top { position: fixed; bottom: 85px; right: 20px; width: 48px; height: 48px; background: linear-gradient(135deg, #ff6b35, #f59e0b); border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; z-index: 100; opacity: 0; visibility: hidden; transition: all 0.3s; }
+        .scroll-top.show { opacity: 1; visibility: visible; transform: translateY(-5px); }
+        
+        .social-sidebar { position: fixed; left: 15px; top: 50%; transform: translateY(-50%); background: rgba(20,24,35,0.85); backdrop-filter: blur(12px); padding: 1rem 0.7rem; border-radius: 40px; display: flex; flex-direction: column; gap: 1.2rem; z-index: 1000; border: 1px solid rgba(255,107,53,0.3); }
+        .social-sidebar a { color: #94a3b8; font-size: 1.2rem; transition: all 0.3s; text-align: center; }
+        .social-sidebar a:hover { color: #ff6b35; transform: translateX(5px) scale(1.1); }
+        
+        .navbar { position: fixed; top: 0; width: 100%; padding: 1rem 2rem; background: rgba(10,12,21,0.95); backdrop-filter: blur(15px); z-index: 1000; transition: all 0.3s; border-bottom: 1px solid rgba(255,107,53,0.2); }
+        .navbar.scrolled { padding: 0.7rem 2rem; }
+        .nav-container { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: 800; background: linear-gradient(135deg, #ff6b35, #f59e0b); -webkit-background-clip: text; background-clip: text; color: transparent; font-family: 'Space Grotesk', monospace; }
+        .nav-links { display: flex; gap: 2rem; list-style: none; }
+        .nav-links a { text-decoration: none; color: #cbd5e1; font-weight: 500; transition: 0.3s; }
+        .nav-links a:hover, .nav-links a.active { color: #ff6b35; }
+        .menu-toggle { display: none; font-size: 1.5rem; cursor: pointer; color: #ff6b35; }
+        
+        footer { background: rgba(10,12,21,0.95); padding: 1.5rem 2rem; border-top: 1px solid rgba(255,107,53,0.2); text-align: center; }
+        .footer-content { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+        
+        .bottom-nav-pwa { position: fixed; bottom: 0; left: 0; width: 100%; background: rgba(10,12,21,0.98); backdrop-filter: blur(20px); display: none; justify-content: space-around; align-items: center; padding: 0.7rem 1rem; z-index: 1000; border-top: 1px solid rgba(255,107,53,0.3); }
+        .bottom-nav-item { display: flex; flex-direction: column; align-items: center; text-decoration: none; color: #94a3b8; font-size: 0.7rem; gap: 4px; padding: 0.3rem 0; }
+        .bottom-nav-item i { font-size: 1.4rem; }
+        .bottom-nav-item.active { color: #ff6b35; }
+        
+        @media (max-width: 1024px) { .navbar, footer { display: none !important; } .bottom-nav-pwa { display: flex !important; } body { padding-bottom: 65px; } .social-sidebar { left: 10px; padding: 0.7rem 0.5rem; gap: 0.8rem; } .social-sidebar a { font-size: 1rem; } .scroll-top { bottom: 80px; right: 15px; width: 42px; height: 42px; } .hero { padding-top: 20px; } }
+        @media (min-width: 1025px) { .bottom-nav-pwa { display: none !important; } body { padding-bottom: 0; } }
+        
+        .hero { min-height: 100vh; display: flex; align-items: center; background: radial-gradient(circle at 20% 50%, rgba(255,107,53,0.15), transparent 50%); padding-top: 60px; }
+        .hero-container { max-width: 1400px; margin: 0 auto; padding: 0 2rem; display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
+        @media (max-width: 768px) { .hero-container { grid-template-columns: 1fr; text-align: center; gap: 2rem; padding: 0 1.5rem; } .hero-stats { justify-content: center; } .hero h1 { font-size: 2.5rem; } }
+        .hero-badge { display: inline-block; padding: 0.3rem 1rem; background: rgba(255,107,53,0.15); border: 1px solid rgba(255,107,53,0.3); border-radius: 40px; font-size: 0.8rem; margin-bottom: 1.5rem; }
+        .hero h1 { font-size: 3.5rem; font-weight: 800; font-family: 'Space Grotesk', monospace; line-height: 1.1; margin-bottom: 1rem; background: linear-gradient(135deg, #fff, #ff6b35); -webkit-background-clip: text; background-clip: text; color: transparent; }
+        .hero-tagline { font-size: 1.1rem; color: #94a3b8; margin-bottom: 1rem; }
+        .typing-wrapper { font-size: 1.3rem; margin: 1rem 0; }
+        #typed-text { background: linear-gradient(135deg, #ff6b35, #f59e0b); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 700; }
+        .cursor { display: inline-block; width: 3px; margin-left: 2px; background: #ff6b35; animation: blink 0.8s infinite; }
+        @keyframes blink { 0%,100%{opacity:1;} 50%{opacity:0;} }
+        .hero-stats { display: flex; gap: 2rem; margin: 2rem 0; }
+        .stat-item h4 { font-size: 1.8rem; font-weight: 700; color: #ff6b35; }
+        .hero-image img { width: 100%; max-width: 350px; border-radius: 50%; border: 4px solid rgba(255,107,53,0.5); box-shadow: 0 30px 50px rgba(0,0,0,0.3); animation: float 6s ease-in-out infinite; }
+        @keyframes float { 0%,100%{transform:translateY(0px);} 50%{transform:translateY(-20px);} }
+        
+        section { padding: 5rem 2rem; }
+        .section-container { max-width: 1400px; margin: 0 auto; }
+        .section-title { font-size: 2.5rem; font-weight: 700; font-family: 'Space Grotesk', monospace; margin-bottom: 3rem; background: linear-gradient(135deg, #fff, #ff6b35); -webkit-background-clip: text; background-clip: text; color: transparent; display: inline-block; }
+        @media (max-width: 768px) { .section-title { font-size: 1.8rem; margin-bottom: 2rem; } section { padding: 3rem 1.2rem; } }
+        
+        .skills-grid, .products-grid, .projects-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 2rem; }
+        @media (max-width: 768px) { .skills-grid, .products-grid, .projects-grid { grid-template-columns: 1fr; gap: 1.2rem; } }
+        
+        .partners-seo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; margin-top: 2rem; }
+        .partner-seo-item { background: rgba(30,34,48,0.5); backdrop-filter: blur(10px); padding: 0.8rem 1.2rem; border-radius: 60px; text-align: center; border: 1px solid rgba(255,107,53,0.2); transition: all 0.3s; font-size: 0.85rem; font-weight: 500; }
+        .partner-seo-item:hover { border-color: #ff6b35; transform: translateX(5px); background: rgba(255,107,53,0.1); }
+        .partner-badge { display: inline-block; background: #ff6b35; color: white; font-size: 0.6rem; padding: 0.1rem 0.4rem; border-radius: 10px; margin-left: 6px; vertical-align: middle; }
+        .company-badge { display: inline-block; background: #f59e0b; color: white; font-size: 0.6rem; padding: 0.1rem 0.5rem; border-radius: 10px; margin-left: 6px; vertical-align: middle; }
+        
+        .product-card, .skill-card, .project-card { background: rgba(30,34,48,0.6); backdrop-filter: blur(10px); border-radius: 24px; padding: 1.8rem; border: 1px solid rgba(255,107,53,0.2); transition: all 0.4s; height: 100%; }
+        .product-card:hover, .skill-card:hover, .project-card:hover { transform: translateY(-5px); border-color: #ff6b35; }
+        .product-icon { font-size: 2.5rem; color: #ff6b35; margin-bottom: 1rem; }
+        .product-card h3, .project-card h3 { font-size: 1.3rem; margin-bottom: 0.8rem; }
+        .product-card p, .project-card p { color: #94a3b8; font-size: 0.9rem; line-height: 1.5; }
+        .skill-header { display: flex; justify-content: space-between; margin-bottom: 0.8rem; }
+        .skill-percent { color: #ff6b35; }
+        .progress-bar { background: rgba(255,255,255,0.1); border-radius: 20px; height: 8px; }
+        .progress { background: linear-gradient(90deg, #ff6b35, #f59e0b); height: 100%; border-radius: 20px; width: 0%; transition: width 1s ease; }
+        .project-tech { background: rgba(255,107,53,0.2); padding: 0.2rem 0.8rem; border-radius: 30px; font-size: 0.7rem; color: #ff6b35; display: inline-block; margin-bottom: 1rem; }
+        .project-link { color: #ff6b35; text-decoration: none; font-weight: 500; display: inline-flex; align-items: center; gap: 0.3rem; margin-top: 1rem; }
+        
+        .clients-slider-container { background: rgba(30,34,48,0.4); backdrop-filter: blur(10px); border-radius: 48px; padding: 2rem 1rem; margin-top: 2rem; }
+        .client-slide { background: rgba(20,24,35,0.6); border-radius: 60px; padding: 0.7rem 1.5rem; display: flex; align-items: center; gap: 10px; border: 1px solid rgba(255,107,53,0.3); width: auto; }
+        .client-slide i { color: #ff6b35; }
+        .client-slide span { font-size: 0.85rem; font-weight: 500; white-space: nowrap; }
+        
+        .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
+        @media (max-width: 768px) { .contact-grid { grid-template-columns: 1fr; } }
+        .contact-info { background: rgba(30,34,48,0.5); border-radius: 28px; padding: 1.8rem; }
+        .contact-info i { color: #ff6b35; margin-right: 1rem; width: 24px; }
+        .contact-form input, .contact-form textarea { width: 100%; padding: 0.9rem; background: rgba(20,24,35,0.8); border: 1px solid rgba(255,107,53,0.3); border-radius: 16px; color: white; margin-bottom: 1rem; }
+        .contact-form button { background: linear-gradient(135deg, #ff6b35, #f59e0b); padding: 0.9rem 2rem; border: none; border-radius: 40px; color: white; font-weight: 600; cursor: pointer; width: 100%; }
+        #map { height: 300px; border-radius: 24px; margin-top: 2rem; }
+        
+        .edu-card { display: inline-block; background: rgba(30,34,48,0.5); padding: 0.5rem 1.2rem; border-radius: 40px; margin: 0.3rem; font-size: 0.85rem; }
+        .btn-primary { background: linear-gradient(135deg, #ff6b35, #f59e0b); padding: 0.8rem 1.8rem; border-radius: 40px; color: white; text-decoration: none; display: inline-block; font-weight: 600; }
+        [data-aos] { opacity: 0; transition-property: transform, opacity; }
+    </style>
+</head>
+<body>
 
-        <!-- Footer Start -->
-        <div class="container-fluid bg-primary text-white footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container py-5 px-lg-5">
-                <div class="row gy-5 gx-4 pt-5">
-                    <div class="col-12">
-                        <h5 class="fw-bold text-white mb-4">Subscribe Our Newsletter</h5>
-                        <div class="position-relative" style="max-width: 400px;">
-                            <input class="form-control bg-white border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
-                            <button type="button" class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">Submit</button>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 col-md-12">
-                        <div class="row gy-5 g-4">
-                            <div class="col-md-6">
-                                <h5 class="fw-bold text-white mb-4">About Us</h5>
-                                <a class="btn btn-link" href="">About Us</a>
-                                <a class="btn btn-link" href="">Contact Us</a>
-                                <a class="btn btn-link" href="">Privacy Policy</a>
-                                <a class="btn btn-link" href="">Terms & Condition</a>
-                                <a class="btn btn-link" href="">Support</a>
-                            </div>
-                            <div class="col-md-6">
-                                <h5 class="fw-bold text-white mb-4">Our Services</h5>
-                                <a class="btn btn-link" href="">Domain Register</a>
-                                <a class="btn btn-link" href="">Shared Hosting</a>
-                                <a class="btn btn-link" href="">VPS Hosting</a>
-                                <a class="btn btn-link" href="">Dedicated Hosting</a>
-                                <a class="btn btn-link" href="">Reseller Hosting</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <h5 class="fw-bold text-white mb-4">Get In Touch</h5>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                        <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mt-lg-n5">
-                        <div class="bg-light rounded" style="padding: 30px;">
-                            <input type="text" class="form-control border-0 py-2 mb-2" placeholder="Name">
-                            <input type="email" class="form-control border-0 py-2 mb-2" placeholder="Email">
-                            <textarea class="form-control border-0 mb-2" rows="2" placeholder="Message"></textarea>
-                            <button class="btn btn-primary w-100 py-2">Send Message</button>
-                        </div>
-                    </div>
+<div class="loader-wrapper" id="loader">
+    <div class="loader-content">
+        <div class="loader-circle"></div>
+        <div class="loader-text">QOMARUDDIN DJAMAL</div>
+    </div>
+</div>
+
+<div class="scroll-top" id="scrollTopBtn"><i class="fas fa-arrow-up"></i></div>
+
+<div class="social-sidebar">
+    <a href="https://github.com/qomaruddindjamal" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://youtube.com/@QomaruddinDjamal92" target="_blank"><i class="fab fa-youtube"></i></a>
+    <a href="https://linkedin.com/in/qomaruddin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://instagram.com/qomaruddin" target="_blank"><i class="fab fa-instagram"></i></a>
+</div>
+
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <div class="logo">QOMARUDDIN // CITRA MEDIA</div>
+        <div class="menu-toggle" id="menuToggle"><i class="fas fa-bars"></i></div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#skills">Skill</a></li>
+            <li><a href="#products">Produk</a></li>
+            <li><a href="#partners">Mitra</a></li>
+            <li><a href="#projects">Proyek</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="bottom-nav-pwa" id="bottomNavPWA">
+    <a href="#home" class="bottom-nav-item"><i class="fas fa-home"></i><span>Home</span></a>
+    <a href="#about" class="bottom-nav-item"><i class="fas fa-user"></i><span>About</span></a>
+    <a href="#products" class="bottom-nav-item"><i class="fas fa-box"></i><span>Produk</span></a>
+    <a href="#partners" class="bottom-nav-item"><i class="fas fa-handshake"></i><span>Mitra</span></a>
+    <a href="#contact" class="bottom-nav-item"><i class="fas fa-envelope"></i><span>Kontak</span></a>
+</div>
+
+<main>
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div data-aos="fade-right">
+                <div class="hero-badge"><i class="fas fa-code"></i> ★ 4.9 (28 ulasan) - Founder PT Citra Media Technology & PT Mitra Utama Group</div>
+                <h1>Qomaruddin Djamal</h1>
+                <div class="hero-tagline">Founder & CEO - PT Citra Media Technology | PT Mitra Utama Group</div>
+                <div class="typing-wrapper"><span id="typed-text"></span><span class="cursor">|</span></div>
+                <div class="hero-stats">
+                    <div class="stat-item"><h4>8+</h4><p>Tahun</p></div>
+                    <div class="stat-item"><h4>50+</h4><p>Proyek</p></div>
+                    <div class="stat-item"><h4>22+</h4><p>Mitra</p></div>
                 </div>
+                <a href="#contact" class="btn-primary">Mulai Kolaborasi <i class="fas fa-arrow-right"></i></a>
             </div>
-            <div class="container px-lg-5">
-                <div class="copyright">
-                    <div class="row">
-                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved. 
-							
-							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
-                        </div>
-                        <div class="col-md-6 text-center text-md-end">
-                            <div class="footer-menu">
-                                <a href="">Home</a>
-                                <a href="">Cookies</a>
-                                <a href="">Help</a>
-                                <a href="">FQAs</a>
-                            </div>
-                        </div>
-                    </div>
+            <div class="hero-image" data-aos="fade-left">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Qomaruddin Djamal - Founder PT Citra Media Technology & PT Mitra Utama Group" onerror="this.src='https://ui-avatars.com/api/?background=ff6b35&color=fff&name=Qomaruddin'">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="section-container">
+            <h2 class="section-title" data-aos="fade-up">Tentang Qomaruddin Djamal</h2>
+            <div data-aos="fade-up" style="background: rgba(30,34,48,0.5); border-radius: 28px; padding: 2rem;">
+                <p style="line-height: 1.6;"><strong>Qomaruddin Djamal</strong> adalah pendiri dan CEO dari <strong>PT Citra Media Technology (Citramedia)</strong> dan <strong>PT Mitra Utama Group</strong>. Sebagai IT Contractor profesional yang berbasis di <strong>Jepara</strong> dan <strong>Kudus</strong>, melayani seluruh <strong>Jawa Tengah</strong> termasuk Pati, Rembang, Kendal, Batang, Karimunjawa, dan Mayong. Spesialisasi dalam <strong>Network Infrastructure, Fiber Optic, CCTV Hikvision, Fire Alarm Hochiki, Audio Broadcast, dan Web Development</strong>. Mitra kerja sama meliputi <strong>PT Nexgen Solutions Asia (NSA)</strong>, <strong>PT Parkland World Jepara (PWJ)</strong>, <strong>PT Parkland World Rembang (PWA)</strong>, <strong>SMK Hasan Kafrawi (SMKHK)</strong>, <strong>Ungu Computer</strong>, <strong>Netvile</strong>, <strong>Lenovo</strong>, <strong>Hikvision</strong>, dan 20+ mitra lainnya.</p>
+                <div style="margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                    <span class="edu-card"><i class="fas fa-building"></i> Founder PT Citra Media Technology</span>
+                    <span class="edu-card"><i class="fas fa-building"></i> Founder PT Mitra Utama Group</span>
+                    <span class="edu-card"><i class="fas fa-network-wired"></i> Network Engineer</span>
+                    <span class="edu-card"><i class="fas fa-video"></i> CCTV Specialist</span>
+                    <span class="edu-card"><i class="fas fa-fire-extinguisher"></i> Fire Alarm Expert</span>
+                    <span class="edu-card"><i class="fas fa-broadcast-tower"></i> Audio Broadcast</span>
                 </div>
             </div>
         </div>
-        <!-- Footer End -->
+    </section>
 
+    <section id="education">
+        <div class="section-container">
+            <h2 class="section-title" data-aos="fade-up">Pendidikan</h2>
+            <div data-aos="fade-up">
+                <div class="edu-card">MI Mif Tahul Ulum Pancur 1</div>
+                <div class="edu-card">MTs Hasan Kafrawi (MTSHK)</div>
+                <div class="edu-card">SMK Hasan Kafrawi (SMKHK - TKJ)</div>
+                <div class="edu-card">IAIN Kudus (IANKUDUS)</div>
+                <div class="edu-card">UIN Kudus (UINKudus)</div>
+            </div>
+        </div>
+    </section>
 
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-secondary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <section id="skills">
+        <div class="section-container">
+            <h2 class="section-title" data-aos="fade-up">Keahlian</h2>
+            <div class="skills-grid" id="skillsGrid"></div>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="section-container">
+            <h2 class="section-title" data-aos="fade-up">Layanan</h2>
+            <div class="products-grid" id="productsGrid"></div>
+        </div>
+    </section>
+
+    <!-- MITRA & KLIEN - TANPA IAIN & UIN -->
+    <section id="partners">
+        <div class="section-container">
+            <h2 class="section-title" data-aos="fade-up">Mitra & Klien</h2>
+            <p data-aos="fade-up" style="margin-bottom: 1rem; color: #94a3b8;">Berikut adalah 22+ perusahaan dan institusi yang telah bekerja sama dengan <strong>Qomaruddin Djamal</strong> (PT Citra Media Technology & PT Mitra Utama Group):</p>
+            <div class="partners-seo-grid" id="partnersGrid" data-aos="fade-up"></div>
+            <div class="clients-slider-container" data-aos="fade-up">
+                <div class="swiper clientsSwiper">
+                    <div class="swiper-wrapper" id="clientsSwiperWrapper"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-container">
+            <h2 class="section-title" data-aos="fade-up">Proyek Unggulan</h2>
+            <div class="projects-grid" id="projectsGrid"></div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-container">
+            <h2 class="section-title" data-aos="fade-up">Hubungi Qomaruddin Djamal</h2>
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <p><i class="fas fa-envelope"></i> qomaruddin@citramediatech.id</p>
+                    <p><i class="fab fa-whatsapp"></i> +62 812 3456 7890</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Kudus / Jepara, Jawa Tengah</p>
+                    <div style="margin-top: 1.5rem;">
+                        <h4 style="color:#ff6b35;">Perusahaan:</h4>
+                        <p><strong>PT Citra Media Technology (Citramedia)</strong> | <strong>PT Mitra Utama Group</strong></p>
+                    </div>
+                    <div style="margin-top: 1rem;">
+                        <h4 style="color:#ff6b35;">Area Layanan:</h4>
+                        <p>Jepara, Kudus, Pati, Rembang, Kendal, Batang, Karimunjawa, Mayong</p>
+                    </div>
+                    <div style="margin-top: 1rem;">
+                        <h4 style="color:#ff6b35;">Mitra Utama:</h4>
+                        <p><strong>NSA</strong> (Nexgen) | <strong>PWJ</strong> (Parkland Jepara) | <strong>PWA</strong> (Parkland Rembang) | <strong>SMKHK</strong></p>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm" data-aos="fade-left">
+                    <input type="text" placeholder="Nama Lengkap" required>
+                    <input type="email" placeholder="Email">
+                    <textarea rows="4" placeholder="Deskripsikan kebutuhan proyek Anda..."></textarea>
+                    <button type="submit"><i class="fas fa-paper-plane"></i> Kirim Pesan</button>
+                </form>
+            </div>
+            <div id="map" data-aos="fade-up"></div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-content">
+        <div>&copy; <span id="currentYear"></span> <strong>Qomaruddin Djamal</strong> - Founder PT Citra Media Technology & PT Mitra Utama Group | IT Contractor Jepara Kudus Rembang</div>
+        <div><i class="fas fa-code"></i> Network • CCTV • Fire Alarm • Audio Broadcast | Mitra: NSA • PWJ • PWA • SMKHK</div>
     </div>
+</footer>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script>
+AOS.init({ duration: 800, once: true, offset: 80 });
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+window.addEventListener('load', () => {
+    setTimeout(() => { const loader = document.getElementById('loader'); loader.style.opacity = '0'; setTimeout(() => loader.style.display = 'none', 800); }, 1000);
+});
+
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => { if (navbar && window.innerWidth > 1024 && window.scrollY > 50) navbar.classList.add('scrolled'); });
+
+const roles = ["Founder PT Citra Media Technology", "Founder PT Mitra Utama Group", "IT Contractor Jepara", "Network Engineer", "Mitra NSA & PWJ & PWA"];
+let roleIndex = 0, charIndex = 0;
+const typedSpan = document.getElementById('typed-text');
+function typeEffect() {
+    if (charIndex < roles[roleIndex].length) { typedSpan.textContent += roles[roleIndex].charAt(charIndex); charIndex++; setTimeout(typeEffect, 80); }
+    else { setTimeout(eraseEffect, 2000); }
+}
+function eraseEffect() {
+    if (charIndex > 0) { typedSpan.textContent = roles[roleIndex].substring(0, charIndex - 1); charIndex--; setTimeout(eraseEffect, 40); }
+    else { roleIndex = (roleIndex + 1) % roles.length; setTimeout(typeEffect, 200); }
+}
+typeEffect();
+
+const skillsData = [
+    { name: "Network & Fiber Optic", percent: 92 }, { name: "CCTV Hikvision", percent: 94 }, { name: "Fire Alarm Hochiki", percent: 89 },
+    { name: "Audio Broadcast", percent: 87 }, { name: "Web Development", percent: 90 }, { name: "IT Consultant", percent: 88 }
+];
+const productsData = [
+    { icon: "network-wired", title: "Jaringan & Fiber Optik", desc: "Instalasi fiber optik, routing, switching untuk industri Jepara, Kudus, Pati, Rembang" },
+    { icon: "video", title: "CCTV Hikvision", desc: "Pemasangan CCTV IP 4K, NVR, monitoring jarak jauh untuk pabrik & perkantoran" },
+    { icon: "fire-extinguisher", title: "Fire Alarm Hochiki", desc: "Sistem alarm addressable untuk gedung & pabrik, termasuk area Parkland Jepara & Rembang" },
+    { icon: "broadcast-tower", title: "Audio Broadcast", desc: "Setup studio siaran & streaming digital untuk radio komunitas" },
+    { icon: "code", title: "Web Development", desc: "Aplikasi manajemen & sistem informasi untuk yayasan dan korporasi" },
+    { icon: "cloud-upload-alt", title: "IT Consultant", desc: "Analisis & perencanaan infrastruktur IT untuk bisnis skala menengah" }
+];
+const projectsData = [
+    { name: "Network Fiber Optic - PWJ", tech: "Fiber Optik • Parkland Jepara", desc: "Backbone jaringan untuk PT Parkland World Indonesia (PWJ) Jepara" },
+    { name: "Network Fiber Optic - PWA", tech: "Fiber Optik • Parkland Rembang", desc: "Infrastruktur jaringan untuk PT Parkland World Indonesia (PWA) Rembang" },
+    { name: "Kerjasama PT Nexgen Solutions Asia", tech: "NSA • Nexgen", desc: "Kolaborasi strategis dengan PT Nexgen Solutions Asia untuk pengembangan IT" },
+    { name: "CCTV & Security System", tech: "Hikvision • Lenovo", desc: "Sistem keamanan terintegrasi untuk berbagai industri" },
+    { name: "Fire Alarm System", tech: "Hochiki • Addressable", desc: "Proteksi kebakaran untuk gedung dan area industri" },
+    { name: "Dapodik SMK Hasan Kafrawi", tech: "PHP • UKK", desc: "Sistem informasi sekolah & uji kompetensi (SMKHK)" }
+];
+
+// DAFTAR MITRA - TANPA IAIN & UIN, Ungu Compute menjadi Ungu Computer
+const partnersList = [
+    "PT Nexgen Solutions Asia (NSA)", "Citramedia", "PT Mitra Utama Group",
+    "PT Parkland World Jepara (PWJ)", "PT Parkland World Rembang (PWA)",
+    "SMK Hasan Kafrawi (SMKHK)", "Ungu Computer", "Netvile", "Hikvision", "Lenovo", "Belden",
+    "PT Handal Sukses Karya (HSK)", "PT Handal Sukses Karya Rembang (HSK)",
+    "PT Yihyu Footwater Indonesia", "PT Jinlin Luggage Indonesia", "Pendidikan Surya",
+    "PT Hwa Seung Indonesia", "PT TAK Textile Indonesia Cikupa", "PT TAK Textile Indonesia Cikarang",
+    "PT Anam Sinergi Indonesia", "PT Global Solusindo", "MTs Hasan Kafrawi (MTSHK)"
+];
+
+function renderSkills() {
+    document.getElementById('skillsGrid').innerHTML = skillsData.map(s => `<div class="skill-card" data-aos="fade-up"><div class="skill-header"><span>${s.name}</span><span class="skill-percent">${s.percent}%</span></div><div class="progress-bar"><div class="progress" style="width:${s.percent}%"></div></div></div>`).join('');
+}
+function renderProducts() {
+    document.getElementById('productsGrid').innerHTML = productsData.map(p => `<div class="product-card" data-aos="fade-up"><div class="product-icon"><i class="fas fa-${p.icon}"></i></div><h3>${p.title}</h3><p>${p.desc}</p></div>`).join('');
+}
+function renderProjects() {
+    document.getElementById('projectsGrid').innerHTML = projectsData.map(p => `<div class="project-card" data-aos="fade-up"><h3>${p.name}</h3><span class="project-tech">${p.tech}</span><p>${p.desc}</p><a href="#" class="project-link" onclick="openDetail('${p.name} - ${p.desc}')">Detail →</a></div>`).join('');
+}
+function renderPartners() {
+    document.getElementById('partnersGrid').innerHTML = partnersList.map(p => {
+        let badge = '';
+        if (p.includes('NSA')) badge = '<span class="partner-badge">NSA</span>';
+        if (p.includes('PWJ')) badge = '<span class="partner-badge">PWJ</span>';
+        if (p.includes('PWA')) badge = '<span class="partner-badge">PWA</span>';
+        if (p.includes('SMKHK')) badge = '<span class="partner-badge">SMKHK</span>';
+        if (p.includes('Citramedia')) badge = '<span class="company-badge">Perusahaan Saya</span>';
+        if (p.includes('PT Mitra Utama Group')) badge = '<span class="company-badge">Perusahaan Saya</span>';
+        if (p.includes('HSK')) badge = '<span class="partner-badge">HSK</span>';
+        if (p.includes('MTSHK')) badge = '<span class="partner-badge">MTSHK</span>';
+        return `<div class="partner-seo-item" data-aos="fade-up"><i class="fas fa-building" style="color:#ff6b35; margin-right:8px;"></i> ${p} ${badge}</div>`;
+    }).join('');
+    
+    const wrapper = document.getElementById('clientsSwiperWrapper');
+    if (wrapper) {
+        wrapper.innerHTML = '';
+        [...partnersList, ...partnersList].forEach(client => {
+            const slide = document.createElement('div');
+            slide.className = 'swiper-slide';
+            slide.style.width = 'auto';
+            slide.innerHTML = `<div class="client-slide"><i class="fas fa-building"></i><span>${client}</span></div>`;
+            wrapper.appendChild(slide);
+        });
+        new Swiper('.clientsSwiper', { slidesPerView: 'auto', spaceBetween: 16, loop: true, speed: 5000, autoplay: { delay: 0, disableOnInteraction: false, pauseOnMouseEnter: true }, freeMode: true, freeModeMomentum: false });
+    }
+}
+renderSkills(); renderProducts(); renderProjects(); renderPartners();
+
+const scrollBtn = document.getElementById('scrollTopBtn');
+window.addEventListener('scroll', () => { if (window.scrollY > 300) scrollBtn.classList.add('show'); else scrollBtn.classList.remove('show'); });
+scrollBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+const menuToggle = document.getElementById('menuToggle');
+const navLinks = document.getElementById('navLinks');
+if (menuToggle) menuToggle.addEventListener('click', () => navLinks.classList.toggle('active'));
+
+const sections = document.querySelectorAll('section[id]');
+const desktopNavItems = document.querySelectorAll('.nav-links a');
+const bottomNavItems = document.querySelectorAll('.bottom-nav-item');
+function updateActiveNav() {
+    let scroll = window.scrollY + 100;
+    let current = '';
+    sections.forEach(sec => { if (scroll >= sec.offsetTop && scroll < sec.offsetTop + sec.offsetHeight) current = sec.getAttribute('id'); });
+    desktopNavItems.forEach(link => { link.classList.remove('active'); if (link.getAttribute('href') === '#' + current) link.classList.add('active'); });
+    bottomNavItems.forEach(item => { item.classList.remove('active'); if (item.getAttribute('href') === '#' + current) item.classList.add('active'); });
+}
+window.addEventListener('scroll', updateActiveNav);
+window.addEventListener('load', updateActiveNav);
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        const targetId = this.getAttribute('href');
+        if (targetId === '#') return;
+        const target = document.querySelector(targetId);
+        if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); if (navLinks && navLinks.classList.contains('active')) navLinks.classList.remove('active'); }
+    });
+});
+
+const map = L.map('map').setView([-6.592, 110.678], 10);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', { attribution: '© OpenStreetMap' }).addTo(map);
+L.marker([-6.592, 110.678]).addTo(map).bindPopup("<b>Qomaruddin Djamal</b><br>★ 4.9 (28 ulasan)<br>Founder PT Citra Media Technology & PT Mitra Utama Group<br>Melayani Jepara, Kudus, Pati, Rembang, Kendal, Batang, Karimunjawa<br><br><b>Mitra:</b> NSA • PWJ • PWA • SMKHK • Ungu Computer").openPopup();
+
+document.getElementById('contactForm').addEventListener('submit', (e) => { e.preventDefault(); alert('Terima kasih! Pesan Anda akan segera direspon.'); e.target.reset(); });
+window.openDetail = (msg) => alert('📌 ' + msg);
+document.getElementById('currentYear').innerText = new Date().getFullYear();
+
+if ('serviceWorker' in navigator) { navigator.serviceWorker.register('/sw.js').catch(console.log); }
+</script>
 </body>
-
 </html>
